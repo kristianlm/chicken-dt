@@ -1,0 +1,8 @@
+/dt.build.sh
+/dt.import.scm
+/dt.import.so
+/dt.install.sh
+/dt.link
+/dt.so
+/dt.static.o
+/tests/run
