@@ -1,11 +1,10 @@
 (import test chicken.time.posix
         (only chicken.io read-line)
+        (only chicken.string conc)
         (only srfi-13 string-join)
         (only srfi-1 iota)
         chicken.process
-        fmt)
-
-(include "dt.scm")
+        dt fmt)
 
 (test-group
  "leap-year"

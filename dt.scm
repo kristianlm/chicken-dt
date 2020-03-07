@@ -1,6 +1,6 @@
 ;;; inspired by (or one could say ported from)
 ;;; https://github.com/chansen/c-dt
-(import test chicken.string)
+(import (only chicken.string conc))
 
 ;; ==================== ordinal dates ====================
 (define (yd->d y d)
