@@ -1,4 +1,9 @@
 ;; -*- scheme -*-
 ((author "Kristian Lein-Mathisen")
- (components (extension dt (source "dt-module.scm")))
- (test-dependencies test fmt))
+ (dependencies)
+ (test-dependencies test fmt)
+ (foreign-dependencies)
+ (components
+  (extension dt
+             (source "dt-module.scm")
+             (source-dependencies "dt.scm"))))
